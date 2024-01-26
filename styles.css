@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.logo{
+    width:80px;
+    height:80px;
+    margin-left:30px;
+}
+#custom-navlink{
+    color:black;
+    font-family:Roboto;
+    font-size: 15px;
+}
+.bg-container{
+    background-image:linear-gradient(to right, rgb(81, 79, 79,0), rgb(81, 79, 79,1)),url(pexels-dana-tentis-691114\ \(1\).jpg);
+    background-size:cover;
+    background-position: center;
+    height:100vh;
+}
+.top-heading{
+    color:white;
+    font-size:35px;
+    font-weight:bold ;
+    font-family:Roboto;
+}
+.caption{
+    color:white;
+    font-size:20px;
+    font-family:Roboto;
+   
+}
+.button-section{
+    padding-right:200px;
+}
+.button1{
+    border-width:0px;
+    background-color:rgb(255, 174, 0);
+    border-radius:10px;
+    color:white;
+    font-family:Roboto;
+    font-size:20px;
+    padding:8px;
+    margin-right:10px;
+}
+.button2{
+    background-color: transparent;
+    color:white;
+    border-width:2px;
+    border-style:solid;
+    border-color:rgb(255, 174, 0);
+    font-family: Roboto;
+    font-size:20px;
+    padding:8px;
+    border-radius:10px;
+
+}
+.highlight{
+    color:rgb(236, 169, 26);
+    
+}
+.wcu-section{
+  background-color: #f9fbfe;
+}
+.wcu-card{
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 16px;
+  width:350px;
+  height: 290px;
+}
+
+.wcu-heading{
+  color:#183b56;
+  font-size:35px;
+  font-family: Roboto;
+  font-weight:bold;
+}
+.wcu-caption{
+  color:#5a7184;
+  font-size:20px;
+  font-family: Roboto;
+}
+.wcu-card-img{
+  width:80px ;
+  height: 80px;
+
+}
+.wcu-card-title{
+  color:#183b56;
+  font-size:20px;
+  font-family: Roboto;
+ 
+
+}
+.wcu-card-description{
+  color:#5a7184;
+  font-size:15px;
+  font-family: Roboto;
+
+}
+.offers{
+  color:black;
+  font-style: italic;
+}
+.em-card{
+  border-radius: 10px;
+
+}
+.em-card-img{
+  width:100%;
+  border-radius: 10px;
+}
+.em-title{
+  color:#183b56;
+  font-size:15px;
+  font-family: Roboto;
+  padding-top:10px;
+  text-align: left;
+}
+.Menu-item-link {
+  color: #d0b200;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  
+}
+.hf-section{
+  background-color: #f9fbfe;
+}
+.hf-img{
+  width: 273px;
+
+}
+.hf-title{
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.hf-description{
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.custom-button{
+  color: white;
+  background-image:linear-gradient(#d0b200,#a58d00); 
+  width: 130px;
+  height: 45px;
+  border-width: 0;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+.dandp-section{
+  background-color: #e5eaf4;
+}
+.dp-heading{
+  color: #183b56;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+}
+.dp-description{
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.dp-img{
+  width: 100%;
+}
+.payment-card-img{
+  width:45px;
+  height: 50px;
+  margin: 8px;
+}
+.thank-section{
+  background-image:radial-gradient(white,gold);
+}
+.thank-heading{
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.thank-description{
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.thanking-customers-section-img{
+  width: 270px;
+  margin-bottom: 20px;
+}
+.thanking-customers-section-modal-title{
+  color: #d0b200;
+  font-weight: 800;
+}
+.follow-us-section {
+  background-color: white;
+}
+.follow-us-section-heading {
+  text-align: center;
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.follow-us-icon-container {
+  background-color: #faf7e8;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 15px;
+  padding-top: 22px;
+  padding-bottom: 14px;
+  padding-right: 16px;
+  padding-left: 22px;
+}
+.icon {
+  color: #d0b200;
+  font-size: 35px;
+}
+.footer-section {
+  background-color: #0d2436;
+}
+.footer-section-mail-id {
+  color: #959ead;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.footer-section-address {
+  color: #959ead;
+  font-family: "Roboto";
+  font-size: 14px;
+}
